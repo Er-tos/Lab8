@@ -12,11 +12,11 @@ namespace Lab8._1
         static void Main(string[] args)
         {
             string path = "C:/Работа/NextGIS/DTClassifier";
-            string[] diresInParent;
+            string[] Parent;
             if (Directory.Exists(path))
             {
                 Console.WriteLine("Содержимое папки, расположенной по дирректории: {0}", path);
-                diresInParent = GetDirsFromDir(path);
+                Parent = GetDirsFromDir(path);
                 Console.WriteLine();
             }
             else
